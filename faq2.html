@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="suponic_ico.png" type="image/x-icon">
+    <meta name="description" content="">
+
+
+    <title>FAQ</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    </script>
+
+    <style>
+        /***
+Bootstrap4 Card with Tabs by @mdeuerlein
+***/
+        
+        .card {
+            /* background-color: #ffffff; */
+            border: 1px solid rgba(0, 34, 51, 0.1);
+            box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.05), 2px 4px 10px 0 rgba(0, 34, 51, 0.05);
+            border-radius: 0.15rem;
+        }
+        /* Tabs Card */
+        
+        .tab-card {
+            /* border: 1px solid #eee; */
+        }
+        
+        .tab-card-header {
+            background: none;
+        }
+        /* Default mode */
+        
+        .tab-card-header>.nav-tabs {
+            border: none;
+            margin: 0px;
+        }
+        
+        .sub-nav-tab {
+            margin-left: 37.6px;
+        }
+        
+        .tab-card-header>.nav-tabs>li {
+            margin-right: 2px;
+        }
+        
+        .tab-card-header>.nav-tabs>li>a {
+            border: 0;
+            border-bottom: 2px solid black;
+            margin-right: 0;
+            color: #737373;
+            padding: 2px 15px;
+        }
+        
+        .tab-card-header>.nav-tabs>li>a.show {
+            border-bottom: 2px solid #007bff!important;
+            color: #007bff !important;
+        }
+        
+        .tab-card-header>.nav-tabs>li>a:hover {
+            color: #007bff !important;
+        }
+        
+        .tab-card-header>.tab-content {
+            padding-bottom: 0;
+        }
+        /***
+Bootstrap4 Card with Tabs by @mdeuerlein
+***/
+        
+        .cgp-text {
+            background-image: linear-gradient(-90deg, #020202, #0b0c2f, #020202);
+            color: white;
+            padding: 20px;
+        }
+        
+        .card {
+            background-color: #ffffff;
+            border: 1px solid rgba(0, 34, 51, 0.1);
+            box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.05), 2px 4px 10px 0 rgba(0, 34, 51, 0.05);
+            border-radius: 0.15rem;
+        }
+        /* Tabs Card */
+        
+        .tab-card {
+            border: 1px solid #eee;
+        }
+        
+        .tab-card-header {
+            background: none;
+        }
+        /* Default mode */
+        
+        .tab-card-header>.nav-tabs {
+            border: none;
+            margin: 0px;
+        }
+        
+        .tab-card-header>.nav-tabs>li {
+            margin-right: 2px;
+        }
+        
+        .tab-card-header>.nav-tabs>li>a {
+            border: 0;
+            border-bottom: 2px solid transparent;
+            margin-right: 0;
+            /* color: #737373; */
+            padding: 2px 15px;
+        }
+        
+        .tab-card-header>.nav-tabs>li>a.show {
+            border-bottom: 2px solid #007bff;
+            color: #007bff!important;
+        }
+        
+        .tab-card-header>.nav-tabs>li>a:hover {
+            color: #007bff !important;
+        }
+        
+        .tab-card-header>.tab-content {
+            padding-bottom: 0;
+        }
+        
+        .nav-tabs .nav-link.active {
+            border-color: black !important;
+        }
+        /*         
+        @media (max-width: 667px) and (min-width:320px) {
+            label {
+                margin-bottom: 0px !important;
+            }
+        } */
+        
+        .card-link {
+            color: grey;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+        
+        .card {
+            border: none !important;
+            box-shadow: none !important;
+        }
+        
+        .tab-card-header>.nav-tabs>li {
+            margin-right: 75px;
+        }
+        
+        .nav-link {
+            padding: 0px !important;
+        }
+        
+        .sub-nav-tab {
+            margin-left: 20px;
+        }
+        
+        .nav-item {
+            padding: 8px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="faq-main">
+        <nav class="navbar navbar-expand-lg navbar-dark  static-top ">
+            <div class="container-fluid ">
+                <div class="col-md-1"></div>
+                <a class="navbar-brand" href="index.html">
+                    <img src="suponic_global_logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-white" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle " href="about.html">About<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="" href="# ">our values</a></li>
+                                <li><a class="" href="#what ">who we are</a></li>
+                                <li>
+                                    <a class=" " href="#do ">what do we do</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item  ">
+                            <a class="nav-link " href="game-credit.html">SGC 
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle " href="products.html ">Products<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="eleven.html">	Eleven Handsfree </a></li>
+                                <li>
+                                    <a href="wireless-earphone.html">Wireless Earphone </a>
+                                </li>
+                                <li><a href="mobile-phone.html">	Mobile Phone </a></li>
+                                <li><a href="torando.html">	Tornado k775 </a></li>
+                                <li>
+                                    <a href="gamer-headest.html">Pro Gamer Headset </a>
+                                </li>
+                                <li><a href="royal-headphone.html">	Royal Headphone </a></li>
+                                <li><a href="Suponic-k50.html">	Suponic K50 </a></li>
+                                <li><a href="Gypsies.html">	Gypsies handsfree </a></li>
+
+
+                            </ul>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="deveopers.html">Developer</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="faq2.html "> Faq</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="# ">Community</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="disclaimer.html ">Disclaimer</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="# ">Inkwars</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-1 "></div>
+
+        </nav>
+        <div class="row">
+            <div class="col-md-11 text-right" style="padding-right:30px;margin-top:-10px"><a class="login-btn " href="#">Login</a></div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row" style="margin-top:15px;">
+            <div class="col-md-11 text-right" style="padding-right:30px;margin-top:-10px"><a class="join-btn" href="#">Register</a></div>
+            <div class="col-md-1"></div>
+        </div>
+
+        <div class="row mt-5 ">
+            <div class="col-lg-12 ">
+                <h1 class="text-center text-white mt-2 pb-5 fon animation-about-us">FAQ SUPONIC</h1>
+
+            </div>
+        </div>
+        </div>
+        <div class="container-fluid ">
+            <div class="row " style="margin-bottom:70px; ">
+                <div class="col-lg-12 ">
+                    <h3 class="text-center mt-5 fon contact-animation">FAQ</h3>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card mt-3 tab-card">
+                        <div class=" tab-card-header">
+                            <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                                <li class="nav-items sub-nav-tab">
+                                    <a class="nav-link " id="one-tab" data-toggle="tab" href="#one" role="tab" aria-controls="One" aria-selected="true">game platform</a>
+                                </li>
+                                <li class="nav-items sub-nav-tab">
+                                    <a class="nav-link" id="two-tab" data-toggle="tab" href="#two" role="tab" aria-controls="Two" aria-selected="false">E-Sports Mode</a>
+                                </li>
+                                <li class="nav-items sub-nav-tab">
+                                    <a class="nav-link" id="three-tab" data-toggle="tab" href="#three" role="tab" aria-controls="Three" aria-selected="false">affiliate</a>
+                                </li>
+
+                                <li class="nav-items sub-nav-tab">
+                                    <a class="nav-link " id="four-tab" data-toggle="tab" href="#four" role="tab" aria-controls="four" aria-selected="false">price strategy</a>
+                                </li>
+                                <li class="nav-items sub-nav-tab">
+                                    <a class="nav-link" id="five-tab" data-toggle="tab" href="#five" role="tab" aria-controls="five" aria-selected="false">investment</a>
+                                </li>
+                                <li class="nav-items sub-nav-tab">
+                                    <a class="nav-link" id="six-tab" data-toggle="tab" href="#six" role="tab" aria-controls="six" aria-selected="false">about us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <hr style="border-top: 2px solid rgba(0,0,0,.3);width: 97%;
+                    margin-left: 1.5%;">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active p-3" id="one" role="tabpanel" aria-labelledby="one-tab">
+                                <div id="accordion">
+
+
+                                    <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                        What’s SGC?
+                                </a>
+
+                                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+
+                                        <p class="cgp-text">SGC, stands for Suponic Game Credit, is the game credit used in the Suponic Game Platform, backed by the blockchain. Gamers can use SGC to buy items and play against others for prizes through multiplayer challenging
+                                            E-Sport Mode.</p>
+
+                                    </div>
+                                    <br>
+
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                        What’s Suponic Game Platform?
+                                    </a>
+
+                                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+
+                                        <p class="cgp-text">Suponic Game Platform is the game engine to supply Suponic Global with popular and toxic games for Suponic Global gamers to play.</p>
+
+                                    </div>
+
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                                 How do I access the game platform?
+                                </a>
+
+                                    <div id="collapseThree" class="collapse" data-parent="#accordion">
+
+                                        <p class="cgp-text">Game platform can be accessed by a web browser. One of the featured game, InkWars can be found at the Google Play, but if you want to play the E-Sports Mode, you can download the InkWars APK from the suponicgames.com
+                                            and install the APK file to your smart phone.</p>
+
+                                    </div>
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapsefour">
+                                        Will the number of games increase on the game platform?
+                                </a>
+
+                                    <div id="collapsefour" class="collapse" data-parent="#accordion">
+
+                                        <p class="cgp-text">Yes, currently we have 64 games listed, and plans to publish 300 games soon. Suponic Games Platform has been accepting and carefuly selecting offers from different game developers in various genres all over the
+                                            world. Suponic Games Platform is responsible to choose those fit in our category, and share the same value. Suponic Games Platform will launch 3D games next year. Besides, you wouldn't need special glasses to
+                                            play 3D games whenever, wherever, if you play them with Suponic Smartphone.</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade p-3" id="two" role="tabpanel" aria-labelledby="two-tab">
+                                <div id="accordion1">
+
+
+                                    <a class="card-link" data-toggle="collapse" href="#collapsefive">
+                                        What is E-Sports Mode?
+                                </a>
+
+                                    <div id="collapsefive" class="collapse show" data-parent="#accordion1">
+
+                                        <p class="cgp-text">E-Sport Mode, is designed for players to pay SGC as an entrance fee for prizes through multiplayer challenging E-Sport Mode. The E-Sport Mode system is set so that the professional or experienced gamers can make
+                                            profit through SGC, players with higher winner rate are based on the skills of the players developed by time and effort.</p>
+
+                                    </div>
+                                    <br>
+
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse6">
+                                        Are games listed kill based or chance based?
+                              </a>
+
+                                    <div id="collapse6" class="collapse" data-parent="#accordion1">
+
+                                        <p class="cgp-text">We don’t encourage any type of gambling, which is opposite to our value. We are proud to say that all games listed in Suponic Games Platform are 100% skill-based games, which allows players to perfect their skills
+                                            with effort over time. Gamers can challenge each other in a trustful environment powered by blockchain, and they will have higher chance of winning by being an experience gamer. All chance-based games will have
+                                            no chance to be listed.</p>
+
+                                    </div>
+
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse7">
+                                        What are the levels of E-Sports Mode entry fee?
+                                </a>
+
+                                    <div id="collapse7" class="collapse" data-parent="#accordion1">
+
+                                        <p class="cgp-text">The gamers can choose the entry fee amount starting from 0.1 SGC to a higher amount according to their game level. The maximum entry amount is limited to be 100 SGC, however, to prevent any social problems. The
+                                            low entry fee would allow every gamer with confidence in their wisdoms and skills to challenge other gamers and win the prize.</p>
+
+                                    </div>
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse8">
+                                        How is the E-Sports Mode counterpart selected? 
+                                </a>
+
+                                    <div id="collapse8" class="collapse" data-parent="#accordion1">
+
+                                        <p class="cgp-text">The opponent can be selected privately or randomly matched from the public. It would be wise to choose your opponent who has the similar level, as the reward balancing system is constructed to reduce the reward
+                                            for the gamer with higher level if the level gap is too big, in order to guarantee the fairness in E-Sports Mode.</p>
+
+                                    </div>
+
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse9">
+                                        Is this Gambling? What is the difference?
+                                </a>
+
+                                    <div id="collapse9" class="collapse" data-parent="#accordion1">
+
+                                        <p class="cgp-text">No, it’s not gambling. Gambling is relying on a pure chance, betting everything on a luck. On the other hand, games in Suponic Games Platform, require skills developed by endless effort. A typical example of gambling
+                                            would be to buy lottery tickets or to bet on the winning side of a football match.
+                                        </p>
+
+                                    </div>
+
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse10">
+                                        Will games cause addiction?
+                                    </a>
+
+                                    <div id="collapse11" class="collapse" data-parent="#accordion1">
+
+                                        <p class="cgp-text">Although all our games are fun and entertaining, gamers can have chance to win prize for real money, as with everything, it may not be free from the controversy, so in the case of the Suponic E-Sports Mode, you
+                                            can set up a entry fee limit per game as well as adult certification and prevent it from becoming addictive.</p>
+
+                                    </div>
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse11">
+                                        How can I make profit?
+                                </a>
+
+                                    <div id="collapse10" class="collapse" data-parent="#accordion1">
+
+                                        <p class="cgp-text">In general, for an E-Sports Mode competition, for example, if a gamer would play with 1 SGC as entry fee, to compete against other gamer for a prize of 1.7 SGC, and one game is designed to finish within 2 minutes
+                                            on average. The winner takes the prize of 1.7 SGC, which means the winner gamer make 0.7 SGC. Players who practice a lot can earn a lot of SGC because of their high winning rate. All SGC will be traded in exchange.</p>
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade p-3" id="three" role="tabpanel" aria-labelledby="three-tab">
+                                <div id="accordion3">
+
+
+                                    <a class="card-link" data-toggle="collapse" href="#collapse13">
+                                    What is affiliate marketing?
+                                </a>
+
+                                    <div id="collapse13" class="collapse show" data-parent="#accordion3">
+
+                                        <p class="cgp-text">Affiliate marketing is a type of performance-based marketing in which a business rewards one or more affiliates for each visitor or customer brought by the affiliate's own marketing efforts. Whoever can become an
+                                            affiliate and work wherever. To become an affiliate, create an SGC Wallet and purchase $100 SGC and receive the URL with your referral code and download banners to be used in your SNS postings. When a new gamer
+                                            registers through your code, both you and your referral gets rewards. This could be a simple work that you can do in your free time, but it could potentially bring you extra earnings.</p>
+
+                                    </div>
+                                    <br>
+
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse14">
+                                    What is affiliate URL?
+                              </a>
+
+                                    <div id="collapse14" class="collapse" data-parent="#accordion3">
+
+                                        <p class="cgp-text">Think of it as a website address with the affiliate's referral code. When a new user clicks this URL, it opens the website to create SGC Wallet. When the new user creates the wallet, both the affiliate and the referral
+                                            obtain awared SGC each. It is a marketing program to gather gamers.</p>
+
+                                    </div>
+
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse15">
+                                    How do we get the affiliate URL?
+                                </a>
+
+                                    <div id="collapse15" class="collapse" data-parent="#accordion3">
+
+                                        <p class="cgp-text">Get the URL from the SGC Wallet. You can just copy the URL or download the image of QR Code, so you can send your affiliate URL through QR scanning.</p>
+
+                                    </div>
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse16">
+                                    How do we deliver the affiliate URL?
+                                </a>
+
+                                    <div id="collapse16" class="collapse" data-parent="#accordion3">
+
+                                        <p class="cgp-text">You can deliver the affiliate URL by sending text messages or include the URL in your postings at your SNS Channel like blogs. Your followers will be able to have you as the affiliate when they click the link.</p>
+
+                                    </div>
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse17">
+                                    How can we make use of the banner images?
+                                </a>
+
+                                    <div id="collapse17" class="collapse" data-parent="#accordion3">
+
+                                        <p class="cgp-text">Download the images that suits your SNS channel and use them to create postings. As another option, you can copy the link to the ready-made advertising page, in which your affiliate URL is already embedded, and
+                                            share that link, so you don't have to create postings add hyperlinks to the images.</p>
+
+                                    </div>
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse18">
+                                    When can I receive SGC after referring to my friend?
+                                </a>
+
+                                    <div id="collapse18" class="collapse" data-parent="#accordion3">
+
+                                        <p class="cgp-text">The affiliate bonus SGC is granted when a new user creates the SGC Wallet by registering with an affiliate's code, and obtains KYC approval.The affiliate bonus SGC is granted when a new user creates the SGC Wallet
+                                            by registering with an affiliate's code, and obtains KYC approval.</p>
+
+                                    </div>
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse19">
+                                    Can my friend become an affiliate?
+                                </a>
+
+                                    <div id="collapse19" class="collapse" data-parent="#accordion3">
+
+                                        <p class="cgp-text">Of course. The purpose of viral marketing is to spread the word as far as we can, from your friends to your friends’ friends. Once your friend who registered to the SGC Wallet purchases affiliate package, for example
+                                            $100 worth of SGC, then your friend can also become an affiliate.</p>
+
+                                    </div>
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse20">
+                                    What is the difference between B2C and B2B?
+                                </a>
+
+                                    <div id="collapse20" class="collapse" data-parent="#accordion3">
+
+                                        <p class="cgp-text">B2C is an abbreviation of Business to Consumer, the type of business done by our Affiliate, who recruits gamers with their affiliate URL. B2B stands for Business to Business, the type of business done by our Partners,
+                                            who not only recruits gamers themselves, but also collaborates with Celebs, Youtubers, Power Bloggers and other influencers to recruit big number of gamers. They are both investors and business partners.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade p-3" id="four" role="tabpanel" aria-labelledby="four-tab">
+
+                                <div id="accordion4">
+
+
+                                    <a class="card-link" data-toggle="collapse" href="#collapse21">
+                                    How many SGC are there in total?
+                                </a>
+
+                                    <div id="collapse21" class="collapse show" data-parent="#accordion4">
+
+                                        <p class="cgp-text">Total volume of SGC is 10 billion, and 2 billion will be set for pre-sale, and the rest will be sold at the market to the gamers, kept by the company, used for operation, research and development.</p>
+
+                                    </div>
+                                    <br>
+
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse22">
+                                    Why do we burn SGC?
+                              </a>
+
+                                    <div id="collapse22" class="collapse" data-parent="#accordion4">
+                                        We burn SGC to decrease SGC supply, according to the law of supply and demand, when supply is decreasing, demand increases, price will naturally increase, and therefore escalate the value of SGC. It is part of our price sustaining strategies.</p>
+
+                                    </div>
+
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse23">
+                                    How is the coin burning executed?
+                                </a>
+
+                                    <div id="collapse23" class="collapse" data-parent="#accordion4">
+
+                                        <p class="cgp-text">Whenever a gamer plays in the E-Sports Mode, the 0.0225% of the entry fee (15% of company profit from E-Sports Mode) is automatically set aside to be used for burning.</p>
+
+                                    </div>
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse24">
+                                    How is the donation made?
+                                </a>
+
+                                    <div id="collapse24" class="collapse" data-parent="#accordion4">
+
+                                        <p class="cgp-text">We have a program to allocate 5% of the company profit from E-Sports Mode to the non-profit organizations the company supports, such as WESBA and WEA.</p>
+
+                                    </div>
+
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse25">
+                                    What is the prospective of the SGC price?
+                                </a>
+
+                                    <div id="collapse25" class="collapse" data-parent="#accordion4">
+
+                                        <p class="cgp-text">SGC system is structured in a strategy that the value of the SGC will have to potential escalate according to the principle of market, without any market manipulations. The demand will increase exponentially as
+                                            the number of gamers increase, and the pre-sale stager, gamers will purchase SGC package for a discounted whole sale price, while the SGC burn will be carried out everyday while gamers play E-Sports Mode, which
+                                            will decrease the supply of SGC in the market. The upward trend in price would be a natural phenomenon.
+                                        </p>
+
+                                    </div>
+
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse26">
+                                    Is SGC listed to an exchange?
+                                    </a>
+
+                                    <div id="collapse26" class="collapse" data-parent="#accordion4">
+
+                                        <p class="cgp-text">SGC is at its pre-sale period, and it is planned to be listed to the Suponic Exchange on Oct. 1, 2020. </p>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade p-3" id="five" role="tabpanel" aria-labelledby="five-tab">
+                                <div id="accordion5">
+
+
+                                    <a class="card-link" data-toggle="collapse" href="#collapse28">
+                                        Is SGC an investment?
+                                </a>
+
+                                    <div id="collapseOne" class="collapse show" data-parent="#accordion5">
+
+                                        <p class="cgp-text">No, SGC is not an investment, SGC is an utility crypto which is the game credit on Suponic Global games platform, where gamers can purchase from and play in all games on the games platform.</p>
+
+                                    </div>
+                                    <br>
+
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse29">
+                                        How can I buy or sell SGC on the exchange? 
+                              </a>
+
+                                    <div id="collapse29" class="collapse" data-parent="#accordion5">
+
+                                        <p class="cgp-text">You can buy and sell SGC by creating an account at SGC wallet. Pre-sale is currently in progress, so you can select the package that suits you and purchase it there. From Oct. 1, 2020, you can send SGC from the
+                                            wallet to Suponic Exchange for trading.</p>
+
+                                    </div>
+
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse30">
+                                        How can I make money by purchasing in SGC? 
+                                </a>
+
+                                    <div id="collapse30" class="collapse" data-parent="#accordion5">
+
+                                        <p class="cgp-text">Making money is never guaranteed in any case, no promise of profit was ever given by Suponic Global.<br> Suponic Global provides transparent business model and pricing strategy to make its best effort to support
+                                            all gamers and affiliate members by providing various fun games, and enhancing applications of SGC. Suponic Global strictly implements its marketing strategy and follows the basic market supply and demand law.
+                                            The retail price of SGC is clearly listed in our games, which is currently 1 USD per SGC. Non-retail buyers of SGC packages with wholesale price, and will automatically participate in affiliate program, and
+                                            participate the incentive programs.
+
+                                        </p>
+
+                                    </div>
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse31">
+                                   
+                                        I want to purchase SGC package to take advantage of wholesale price. How can I participate? 
+
+                                    </a>
+
+                                    <div id="collapse31" class="collapse" data-parent="#accordion5">
+
+                                        <p class="cgp-text">You can purchase your SGC package with or without participating in marketing. But we do require a sponsor code to purchase SGC packages at wholesale price. Please send us an email. A representative will contact
+                                            you with further instructions.</p>
+
+                                    </div>
+
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse32">
+                                        What is soft cap/hard cap? 
+                                </a>
+
+                                    <div id="collapse32" class="collapse" data-parent="#accordion5">
+
+                                        <p class="cgp-text">Soft cap is the minimum quantity to be sold, and hard cap is the maximum quantity to be sold. The presale wholesale price varies by date as announced, but once the hard cap is reached, the price will change to the
+                                            next month's price regardless of the date. Soft cap is 1% of total issued volume and hard cap is 20%.</p>
+
+                                    </div>
+
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse33">
+                                        What is the Refund Policy? Is it possible to refund? 
+                                </a>
+
+                                    <div id="collapse33" class="collapse" data-parent="#accordion5">
+
+                                        <p class="cgp-text"> SGC is digital, all sales are final, however, you can trade your SGC in Suponic Exchange at market price.</p>
+
+                                    </div>
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse27">
+                                        How is this SGC different from other crypto in the market?
+                                </a>
+
+                                    <div id="collapse27" class="collapse" data-parent="#accordion5">
+
+                                        <p class="cgp-text"> Unlike any other crypto sold at the ICO based on nothing but a white paper, before SGC is even issued, there’s already a well-established game platform, an exchange, network technology, gamer pool, and infrastructure,
+                                            and more which have been prepared for years. It is a practical crypto that will be used by numerous gamers every day. Especially, Suponic's authentic ecosystem is designed to create a virtuous cycle, designed
+                                            in a way that demand will increase day by day and supply will be decreased at the same time. The structure is set to escalate the value of SGC without manipulation of any kind, by natural principle of supply
+                                            and demand.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--strt six tab-->
+                            <div class="tab-pane fade p-3" id="six" role="tabpanel" aria-labelledby="six-tab">
+                                <div id="accordion6">
+
+
+                                    <a class="card-link" data-toggle="collapse" href="#collapse34">
+                                    What is a protocol?
+                                </a>
+
+                                    <div id="collapse34" class="collapse show" data-parent="#accordion6">
+
+                                        <p class="cgp-text">Protocol refers to the open source program provided by Suponic team. The purpose of the protocol is to deliver convenience for gamers and to reduce developing cost for game developers by offering API and providing
+                                            source program necessary for implementing cryptocurrency PvP system in various games.</p>
+
+                                    </div>
+                                    <br>
+
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse35">
+                                    Why do we open the protocol?
+                              </a>
+
+                                    <div id="collapse35" class="collapse" data-parent="#accordion6">
+
+                                        <p class="cgp-text">Through the open protocol, developers and Suponic can dramatically reduce the cost for game development and focus on building the platform and the core technology. Game developers will not have to worry about publishing
+                                            and marketing their games after the development but mount it on the Suponic platform and share the profit and gamers pool. The eventual goal is to make win-win ecosystem.</p>
+
+                                    </div>
+
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse36">
+                                    What is WESBA?
+                                </a>
+
+                                    <div id="collapse36" class="collapse" data-parent="#accordion6">
+
+                                        <p class="cgp-text">WESBA stands for World eSports & Blockchain Association, an organization established to protect the benefits of gamers and workers in game industry. WESBA acknowledged the technology of Suponic and is now supporting
+                                            other game developers to make use of the Suponic Protocol.</p>
+
+                                    </div>
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse37">
+                                    What is an authentic ecosystem?
+                                </a>
+
+                                    <div id="collapse37" class="collapse" data-parent="#accordion6">
+
+                                        <p class="cgp-text">Suponic Global is part of a profit sharing win-win ecosystem, where the game developers can take their share of the profits while only focusing on developing their game. Suponic Global partner also operates an ecosystem
+                                            for the gamers, holding various kinds of events, festivals, tournaments, and training programs. Suponic Global is also part of an established virtuous cycle for the gamer lovers and market talents, who can become
+                                            an affiliate and contribute in recruiting gamers.</p>
+
+                                    </div>
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse38">
+                                    Is there a special meaning in the name 'Suponic'?
+                                </a>
+
+                                    <div id="collapse38" class="collapse" data-parent="#accordion6">
+
+                                        <p class="cgp-text">Suponic Global is part of the ECO system of Suponic. Suponic Group is a global group that operates various businesses such as electronics, environment, health and logistics as well as blockchain and IT. In particular,
+                                            in the blockchain field, the company has its own original technology, and also provides the protocol necessary for game development, which were highly recognized through various forums and seminars. The technology
+                                            that the Suponic Group is operating under the group's name have absolute trust from the users.</p>
+
+                                    </div>
+                                    <br>
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapse39">
+                                    What is the Roadmap / Schedule?
+                                </a>
+
+                                    <div id="collapse39" class="collapse" data-parent="#accordion6">
+
+                                        <p class="cgp-text">The roadmap and schedule are updated frequently on the website. Please stay tuned.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid small_footer " style="margin-top:80px; ">
+            <h6 class=" my-auto ">All right reserved to suponic global 2020</h6>
+        </div>
+
+</body>
+
+</html>
+
+</html>
